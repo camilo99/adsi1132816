@@ -1,0 +1,25 @@
+<?php 
+	// publics ( assets )
+
+	$base_url = 'http://localhost/adsi/pdo/';
+
+	$assets_css = $base_url.'public/css/';
+
+	$assets_js = $base_url.'public/js/';
+
+	$assets_imgs = $base_url.'public/imgs/';
+
+	// Data Base 
+
+	$user = "root";
+
+	$host = 'localhost';
+
+	$pass = '';
+
+	$ndb = 'adsi1132816';
+
+	$con  = null;
+
+	$stm = null;
+ ?>

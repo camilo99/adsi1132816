@@ -1,0 +1,18 @@
+<p id="menu">
+  , <nav>
+  		<ul>
+  			<li><a href=""> Inicio </a></li>
+  			<li><a href=""> servicio </a></li>
+  			<li><a href=""> contacto </a></li>
+  			<li><a href=""> nosotros </a></li>
+  		</ul>
+   </nav>
+
+</p>
+
+<p id="bienvenida">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium rem quibusdam impedit minima, eveniet dolor eos natus quam ducimus eius harum amet, ut adipisci consequatur! Maiores voluptatibus molestias, iste, blanditiis aliquam modi eos eveniet autem! Eius adipisci voluptas recusandae nemo incidunt pariatur veniam. Rerum nulla dolor culpa, nam, beatae iusto vitae consectetur distinctio nisi veritatis nihil accusamus voluptate, commodi vel qui. Minima rerum ullam, mollitia ipsum consequuntur recusandae,
+</p>
+<p id="pie">
+	todos los derechos reservados @year
+</p>

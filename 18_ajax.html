@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> ajax jquery </title>
+</head>
+<body>
+	<h1> ajax jquery </h1>
+	<hr>
+	<section id="menu"></section>
+	<section id="bienvenida"></section>
+	<section id="pie"></section>
+
+
+	<script src="js/jquery-3.1.1.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			/*  FORMA SIMPLE */ 
+			$('#menu').load('text/file.txt');
+			$('#bienvenida').load('text/file.txt #bienvenida', function(data, status, xhr){
+				if(status == "sucess");
+					alert('la bienvenida se ha cargado');
+				if(status == "error");
+					alert('la bienvenida no se cargo')
+			});
+
+			$('#pie').load('text/file.txt #pie', {year: 2017}, function(data, status, xhr){
+
+			});
+
+			});
+	</script>
+</body>
+</html>

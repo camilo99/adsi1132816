@@ -1,0 +1,71 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	text-decoration: none;
+}
+h1,h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+section#container{
+	/*margin: 50px auto;*/
+	margin-left: 265px;
+	width: 900px;
+	
+}
+
+section#container article{
+	width: 200px;
+	margin-top: 50px ;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+h2{
+	padding-bottom: 14px;
+	border-bottom: 2px solid  #000;
+}
+section#container article div{
+	width: 223px;
+	height: 111px;
+	border: 1px solid #000;
+	margin: 20px auto;
+	
+}
+#caja1, #cajauno, #caja2, #cajados, #caja3, #cajatres{
+	background-image: url(/imgs/1-totodile.png) no-repeat center center/ 70% 70%;
+	filter: grayscale(1);
+}
+
+#twocop{
+	background-image: url(imgs/Croconaw.png);
+	
+}
+#twocopn{
+	background-image: url(imgs/Feraligatr.png);
+	
+}
+#twousd{
+	background-image: url(imgs/Trapinch.png);
+	
+}
+
+#veintecop{
+	background-image: url(imgs/Flygon.png);
+	
+}
+#veintecopn{
+	background-image: url(imgs/Bagon.png);
+	
+}
+#veinteusd{
+	background-image: url(imgs/shelgon.png);
+	
+}
+
+#cincuentacop{
+	background-image: url(imgs/Salamence.png);
+	
+}

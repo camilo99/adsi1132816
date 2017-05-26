@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>majax GET jquery </title>
+</head>
+<body>
+	<h1> ajax Get jquery </h1>
+	<hr>
+	<select name="" id="marcas">
+		<option value="0"> seleccione un personaje</option>
+		<option value="1"> goku </option>
+		<option value="2"> vegeta </option>
+		<option value="3"> trunks </option>
+		<option value="4"> goten </option>
+	</select>
+	<select name="" id="referencias" disabled></select>
+
+	<script src="js/jquery-3.1.1.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('#marcas').change(function(event){
+				$marca = parseInt($(this).val());
+				if($marca != 0) {
+					$.get('marcas.php',{marca: $marca }, function(data) {
+						console.log(data);
+					});
+				} else {
+					alert('debes seleccionar un personaje')
+				}
+				
+			});
+		});
+	</script>
+</body>
+</html>
